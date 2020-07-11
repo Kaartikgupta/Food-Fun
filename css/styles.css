@@ -7,15 +7,15 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #E66618;
+  background-color: #222;
   border-radius: 0;/*Becuase bootstarp will make its radius as round*/
   border: 0;
 }
 
 #logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
+  background: url('../images/restaurant-logo_medium.png') no-repeat;
+  width: 100px;
+  height: 100px;
   margin: 10px 15px 10px 0;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: beige;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -37,7 +37,7 @@ body {
   text-decoration: none;
 }
 .navbar-brand p { /* Kosher cert */
-  color: #000;
+  color: beige;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
@@ -50,11 +50,11 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: rgb(104, 104, 96);
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: rgb(216, 212, 212);
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -68,7 +68,7 @@ body {
   padding-bottom: 0;
 }
 #phone div { /* We Deliver */
-  color: #557c3e;
+  color: #5c5f5b;
   text-align: right;
   padding-right: 15px;
 }
@@ -91,7 +91,7 @@ body {
   border-top: 0;
 }
 .panel-footer .row {
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 }
 #hours, #address {
   line-height: 2;
@@ -100,7 +100,7 @@ body {
   font-size: 1.3em;
 }
 #address p {
-  color: #557c3e;
+  color: #5c5f5b;
   font-size: .8em;
   line-height: 1.0;
 }
@@ -108,7 +108,7 @@ body {
   font-style: italic;
 }
 #testimonials p:nth-child(2) {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 /* END FOOTER */
 
@@ -224,7 +224,7 @@ body {
   bottom: 0;
   right: 0;
   width: 80px;
-  background-color: #557c3e;
+  background-color: rgb(24, 24, 24);
   text-align: center;
 }
 .menu-item-description {
@@ -338,8 +338,8 @@ h3.menu-item-title {
     margin: 0 20px;
     padding: 10px;
     border: 2px solid #fff;
-    background-color: #E66618;
-    color: #951c49;
+    background-color: #222;
+    color: #fff9;
   }
   #xs-deliver {
     margin-top: 5px;
